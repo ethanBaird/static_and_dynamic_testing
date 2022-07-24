@@ -29,6 +29,7 @@ class CardGame:
   # keywork dif does not exist, should be def
   # comma seperator missing where defining parameters, should be (self, card1, card2)
   dif highest_card(self, card1 card2):
+  # this line should be indented
   if card1.value > card2.value:
     # card variable undefinined, should be 'card1'
     return card
