@@ -29,4 +29,8 @@ class TestCardGame(unittest.TestCase):
         highest = CardGame.highest_card(self.card1, self.card1)
         self.assertEqual('These cards have the same value!', highest)
 
+    def test_cards_total(self):
+        total = CardGame.card_total(self.cards)
+        self.assertEqual(8, total)
+
     
